@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gnome" fetch="https://git.gnome.org/browse/"/>
+  
+  <default revision="master" sync-j="4" />
+
+  <project name="dconf" path="gnome/dconf" remote="gnome"/>
+  <project name="glib" path="gnome/glib" remote="gnome"/>
+  <project name="libnotify" path="gnome/libnotify" remote="gnome"/>
+  <project name="pygobject" path="gnome/pygobject" remote="gnome"/>
+ 
+</manifest>

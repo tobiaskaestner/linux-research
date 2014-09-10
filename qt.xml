@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gitorious" fetch="https://gitorious.org/"/>
+  
+  <default revision="master" sync-j="4" />
+
+  <project name="qt/qt5.git" path="qt/qt5" remote="gitorious" revision="stable"/>
+  <project name="qt-creator/qt-creator.git" path="qt/qtcreator" remote="gitorious"/>
+  <project name="installer-framework/installer-framework.git" path="qt/installer-framework" remote="gitorious"/>
+  
+ 
+</manifest>

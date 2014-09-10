@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+  <include name="freedesktop.xml"/>
+  <include name="gnome.xml"/>
+  <include name="qt.xml"/>
+
+
+</manifest>
